@@ -1,0 +1,251 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap:56px;
+    height: 544px;
+  
+    background-image: url(../../public/Background.svg);
+    background-size: cover; 
+    background-repeat: no-repeat; /* Imagem não se repete */
+    background-position: center; /* Centralize a imagem no elemento */
+
+   
+
+}
+
+
+.section{
+    width: 570px;
+    
+      
+    }
+    
+
+.h1{
+        margin-bottom: 16px;
+        
+        color: var(--base-title, #272221);
+        font-family: 'Baloo 2', sans-serif;
+        font-size: 38px;
+        font-weight: 800;
+
+     
+       
+     
+    }
+    
+    .section .p{
+        margin-bottom: 66px;
+
+
+        color: var(--base-subtitle, #403937);
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+            font-weight: 400;
+            line-height: 130%;
+
+            
+    }
+    
+    .ul {
+        display: flex;
+        flex-wrap: wrap; /* Quebra para a próxima linha quando não houver mais espaços */
+        list-style: none;
+
+       
+        
+       
+      }
+      
+.li{
+    flex-basis: 50%; /* Ocupa metade da largura disponível para cada item */
+      flex-grow: 1; /* Permite o crescimento do item flexível */
+      flex-shrink: 0; /* Impede que o item encolha caso o espaço seja menor que seu tamanho */
+      padding: 10px; /* Adiciona espaçamento entre os itens */
+      box-sizing: border-box; /* Inclui padding no tamanho total do elemento */
+      display: flex; /* Adiciona display flex ao item da lista */
+      align-items: center; /* Centraliza verticalmente o conteúdo */
+      gap: 12px;
+     
+    }
+    
+
+ .h3{
+       
+    color: var(--base-text, #574F4D);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    
+    
+    
+    }
+
+    .article{ /*CAMPO MAIOR COM O CAFÉS */
+           
+        width: 1120px;
+        margin: 0 auto;
+        margin-top: 51px;
+        
+        
+     }
+
+
+.menu{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 colunas com largura igual */
+        gap: 30px; /* Espaçamento entre os itens */
+       
+        margin-bottom: 160px;
+
+        
+       
+     }
+
+
+
+.menuTitle{ /*posição de "nossos cafés"*/
+    margin-bottom: 50px;
+    padding-left:20px;
+  
+    
+       
+}
+    
+.strong{ /*nossos cafés*/
+       
+        color: var(--base-subtitle, #403937);
+        font-family: 'Baloo 2', sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        
+    
+    
+    }
+   
+        
+.display{ /*display de cada café*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 256px;
+        height: 310px;
+        border-radius: 6px 36px;
+        background: #7c767627;
+       
+        
+    
+    }
+
+.imageIcon{ /*POSICIONAMENTO DE TODAS AS IMAGENS DO CAFÉ*/
+        
+        margin-top: -230px;
+        position: absolute;
+        
+     }
+
+
+     .alignTextMenu{
+    
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top:80px;
+        text-align: center; /* Centraliza o texto horizontalmente */
+       
+        
+        }
+
+
+.article .menu .display .span{
+ color:  #C47F17;
+font-family: Roboto;
+font-size: 10px;
+font-weight: 700;
+text-transform: uppercase;
+
+border-radius: 100px;
+background: #F1E9C9;
+padding:4px;
+margin-bottom: 12px;
+
+width: 81px;
+height: 21px;
+
+
+}
+
+.h4{
+color:  #403937 ;
+
+font-family: Baloo 2;
+font-size: 20px;
+font-weight: 700;
+margin-bottom: 8px;
+
+width: 216px;
+height: 26px;
+
+}
+
+.menu .item .p{
+
+color: var(--base-label, #8D8686);
+font-family: Roboto;
+font-size: 14px;
+
+font-weight: 400;
+align-items: center;
+
+width: 216px;
+height: 36px;
+
+margin-bottom: 34px;
+
+}
+
+
+.optionSelect{
+    display: flex;
+    width: 208px;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+.input{
+    width: 72px;
+    padding: 8px;
+    border-radius: 6px;
+background: var(--base-button, #E6E5E5);
+width: 72px;
+
+}
+
+
+.buttonPurple{
+width: 38px;
+padding: 8px;
+border-radius: 6px;
+background: var(--brand-purple-dark, #4B2995);
+
+}
+
+
+
+.textInput{
+    
+color: #8047f8;
+}
+    
+
+

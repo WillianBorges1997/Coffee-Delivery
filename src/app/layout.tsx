@@ -1,8 +1,14 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import './globals.css';
+import type { Metadata } from 'next';
+import { Roboto,Baloo_2} from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] })
+
+
+const rbt400 =   Roboto({ subsets: ['latin'], weight: '400' })
+const rbt700 =   Roboto({ subsets: ['latin'], weight: '700' })
+const bloo700 =   Baloo_2({ subsets: ['latin'], weight: '700'})
+const bloo800 =   Baloo_2({ subsets: ['latin'], weight: '800'})
+
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,8 +21,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="pt-br">
+      <body className={rbt400.className}>{children} 
+    
+      
+      </body>
     </html>
   )
 }

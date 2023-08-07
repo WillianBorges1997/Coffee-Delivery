@@ -1,69 +1,196 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /*alinha o article na mesma altura do main*/
+    
+
+    
+    
 }
 
-main {
- width: 1440px;   
- height: 1013px;
- border: 5px solid red;
- margin: 0 auto;
- padding: 78px 160px 0;
+.main{
+    margin-right: 32px;
+}
+
+
+
+.section1 .div, .section2, .article .div{
+    background: var(--base-card, #F3F2F2);
+    
+    padding: 40px;
+    
+    
+}
+
+.fieldset{
+    
+    height: 230px;
+   
+}
+
+.input{
+    height: 42px;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid var(--base-button, #E6E5E5);
+    background: var(--base-input, #EDEDED);
+    margin-bottom: 16px;
+    
+    
+    
+
+}
+
+
+.section1 .div{
+    width: 640px;
+    height: 100%;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    
+    
+}
+
+.form1{
+    width: 200px;
+}
+
+
+.form2 .input{
+    width: 100%;
+   
+
+}
+
+.form3{
+    display: flex;
+}
+
+#eventTextNumber, #eventTextBairro{
+    width: 200px;
+}
+
+#eventTextComplement{
+    width: 348px;
+}
+
+#eventTextCity{
+    width: 276px;
+}
+
+#eventTextUF{
+    width: 60px ;
+}
+
+.section2 {
+width: 640px;
+height: 206px;
+
+border-radius: 6px;
+
+}
+
+.btns{
+    display: flex;
+    gap:12px;
+
+  
+}
+
+.button{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 51px;
+    flex-wrap: nowrap; /* Impede a quebra de linha dentro do botão */
+    white-space: nowrap; /* Impede a quebra de linha */
+    gap: 1px;
+    border-radius: 6px;
+    background: var(--base-button, #E6E5E5);
+}
+
+.alignText{
+    display: flex;
+    gap:8px;
+}
+
+ .section2 .p, 
+ .section1  .p{
+    margin-bottom: 32px;
+    
  
 }
 
-section, article{
-border: 5px solid black;
+
+.article .div{
+    
+width: 448px;
+height: 498px;
+border-radius: 6px 44px;
 padding: 40px;
-margin-top: 12px;
-border-radius: 6px;
-background: var(--base-card, #F3F2F2);
+}
+
+.article .buttonConfirmar{
+    width: 368px;
+    height: 46px;
+    border-radius: 6px;
+background: var(--brand-yellow, #DBAC2C);
+padding: 12px 8px;
+color: var(--base-white, #FFF);
+
+
 
 }
 
-p{
-    margin-bottom: 32px;
-}
-
-.input-wrapper{
-    margin-bottom: 16px;
+.finishPedido{ /*div*/
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-top: 1px solid #000;
     
 }
-input{
-    border-radius: 4px;
-border: 1px solid var(--base-button, #E6E5E5);
-background: var(--base-input, #EDEDED);
-height: 42px;
-}
 
-.buttonsCheck{
-    display: flex;
-    align-items: center;
-    gap: 12px;
-   
-}
-
-button{
+.inputFinish{ /*input*/
+    width: 72px;
+    height: 32px;
     border-radius: 6px;
     background: var(--base-button, #E6E5E5);
-    border:none;
-    height: 51px;
-    padding: 16px;
-    cursor: pointer;
-    
    
-}
-
-aside{
-    width: 448px;
-    border: 5px solid blue;
-    height: auto;
-    padding: 40px;
-    border-radius: 6px 44px;
-background: var(--base-card, #F3F2F2);
 
 }
 
+.buttonFinish{
+    
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
 
+text-transform: uppercase;
+ 
+  width: 91px;
+  height: 32px;
+ 
+  
+}
 
+.ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.botaoeInput{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}

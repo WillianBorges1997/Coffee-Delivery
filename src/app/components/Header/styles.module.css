@@ -1,0 +1,56 @@
+
+.header{
+
+    height: 104px;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    margin: 0 160px 0;
+    
+}
+
+
+.buttonLocation{ /*botão do header */
+    gap:5px;
+}
+
+.menu .item span{
+
+color: var(--brand-yellow-dark, #C47F17);
+font-family: 'Roboto', sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; 
+text-transform: uppercase;
+
+}
+
+    .buttons{
+    display: flex;
+    gap:12px;
+    }
+
+   .buttonLocation{
+    display: flex;
+    align-items: center;
+     border-radius: 6px;
+    background: var(--brand-purple-light, #EBE5F9);
+    border: none;
+    padding: 8px;
+    
+    color: var(--brand-purple-dark, #4B2995);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+        
+    }
+    
+    
+    .buttonCart{
+        border-radius: 6px;
+        background: var(--brand-yellow-light, #F1E9C9);
+        padding: 8px;
+        
+    }
